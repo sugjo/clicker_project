@@ -9,7 +9,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --fix",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.10.8",
@@ -42,16 +43,5 @@
     "typescript": "^5.0.2",
     "typescript-plugin-css-modules": "^5.0.1",
     "vite": "^4.3.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "yarn lint:fix",
-      "git add"
-    ]
   }
 }
