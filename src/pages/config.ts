@@ -6,12 +6,12 @@ type GameScene = {
 type GameScenes = Record<string, GameScene>
 
 export const gameScenes: GameScenes = {
-    "index": {
-        title: "игра",
-        path: "/"
-    },
-    "shop": {
-        title: "Магазин",
-        path: "/shop"
-    }
-}
+	"index": {
+		title: "игра",
+		path: "/"
+	},
+	"shop": {
+		title: "Магазин",
+		path: "/shop"
+	}
+};

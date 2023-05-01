@@ -1,7 +1,7 @@
 const GamePage = () => {
-  return (
-    <div>Game</div>
-  )
-}
+	return (
+		<div>Game</div>
+	);
+};
 
-export { GamePage }
+export { GamePage };
