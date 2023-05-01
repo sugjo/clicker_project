@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    ".github": true,
+    ".husky": true,
+    ".vscode": true
+  },
+  "explorer.fileNesting.patterns": {
+    "package.json": "yarn.lock, yarn-error.log, .prettierignore, .gitignore, tsconfig.json, vite.config.ts, .eslintrc.*, .editorconfig, .lintstagedrc"
+  }
+}
