@@ -4,6 +4,7 @@ import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { gameScenes } from "./config";
 
 const Layout = () => {
+
     const navigate = useNavigate();
     const location = useLocation();
 
